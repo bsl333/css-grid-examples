@@ -27,7 +27,28 @@ body {
   background-color: dodgerblue;
 }
 
-.header,
+.header {
+  grid-area: head;
+}
+
+.small-box {
+  grid-area: box;
+}
+
+.sidebar {
+  grid-area: side;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: foot;
+}
+
+/* column/row names */
+/* .header,
 .footer {
   grid-column: col-start 1 / grid-end;
 }
@@ -44,4 +65,4 @@ body {
 .main {
   grid-row: main-start / main-end;
   grid-column: col-start 1 / col-end 3;
-}
+} */
